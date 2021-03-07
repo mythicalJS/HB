@@ -1,0 +1,33 @@
+{
+  "name": "hirobot",
+  "version": "1.0.0",
+  "description": "HiroBot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mythical.js#0404",
+  "license": "ISC",
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "asynckit": "^0.4.0",
+    "combined-stream": "^1.0.8",
+    "d.js-command-handler": "^2.0.2",
+    "delayed-stream": "^1.0.0",
+    "discord.js": "^12.5.1",
+    "event-target-shim": "^5.0.1",
+    "fs": "^0.0.1-security",
+    "mime-db": "^1.46.0",
+    "mime-types": "^2.1.29",
+    "node-fetch": "^2.6.1",
+    "prism-media": "^1.2.7",
+    "setimmediate": "^1.0.5",
+    "tweetnacl": "^1.0.3",
+    "wokcommands": "^1.2.6",
+    "ws": "^7.4.4"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "eslint": "^7.21.0"
+  }
+}
