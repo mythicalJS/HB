@@ -9,7 +9,7 @@ this bot is fully coded in JavaScript, and node.js
    - join our server for help: discord.gg/J9BUyuCwFy
 # installation:
 1. install node.js and NPM.
-2. replace the TOKEN_HERE in the config.json file.
+2. replace the TOKEN_HERE in the .env file.
 3. do `npm install`
 4. do `WIN + R` and type in `RUN` cmd.
 5. type in the cmd the following
