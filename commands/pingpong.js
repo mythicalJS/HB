@@ -1,7 +1,8 @@
 module.exports = {
     name: 'ping',
-    discription: 'ping pong!',
+    description: 'bsic Ping Pong command.',
+	usage: 'h!ping',
     async execute(client, message, args) {
-        message.channel.send('pong!')
+        message.channel.send('PONG!')
     },
 };

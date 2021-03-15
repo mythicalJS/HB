@@ -1,4 +1,4 @@
- {
+{
 	"extends": "eslint:recommended",
 	"env": {
 		"node": true,
@@ -44,4 +44,4 @@
 		"spaced-comment": "error",
 		"yoda": "error"
 	}
-}
+};
