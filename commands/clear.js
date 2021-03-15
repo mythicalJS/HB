@@ -1,11 +1,11 @@
 const Discord = require('discord.js');
 
 module.exports = {
-    name: 'clear',
-    description: 'clears the channel.',
+	name: 'clear',
+	description: 'clears the channel.',
 	usage: 'h!clear (amount of messages to clear.)',
-    async execute(client, message, args) {
-        if (args[0] == 'help') {
+	async execute(client, message, args) {
+		if (args[0] == 'help') {
 			const testembed = new Discord.MessageEmbed()
 				.setColor('RANDOM')
 				.setTitle('Purge command.')
@@ -30,7 +30,7 @@ module.exports = {
 		message.channel.bulkDelete(deleteNum).then(() => {
 			if (message.member.hasPermission('MANAGE_MESSAGES')) {
 				const emb = new Discord.MessageEmbed()
-					.setColor('RANDOM')
+					.setColor('GREEN')
 					.setTitle('succesful command')
 					.addField('**The messages got successfully deleted!**', `**${args[0]}** messages got deleted...`);
 				message.channel.send(emb)
@@ -39,5 +39,5 @@ module.exports = {
 					}).catch(console.log);
 			}
 		});
-    },
+	},
 };
