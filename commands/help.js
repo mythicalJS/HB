@@ -14,11 +14,9 @@ module.exports = {
 			}
 
 			const embed = new MessageEmbed()
-				.setAuthor(command.name, client.user.displayAvatarURL())
 				.addField('Description', command.description || 'Not Provided :(')
 				.addField('Usage', '`' + command.usage + '`' || 'Not Provied')
-				.setColor('GREEN')
-				.setFooter(client.user.username, client.user.displayAvatarURL());
+				.setColor('GREEN');
 
 			return message.channel.send(embed);
 		} else {
@@ -26,8 +24,7 @@ module.exports = {
 
 			const emx = new MessageEmbed()
 				.setColor('RANDOM')
-				.setFooter(client.user.username, client.user.displayAvatarURL())
-				.setThumbnail(client.user.displayAvatarURL());
+				.setFooter(client.user.username, client.user.displayAvatarURL());
 
 			const com = {};
 			for (const comm of commands.array()) {
